@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Добавление нового значения</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<div class="container">
+  <form>
+    <h1>Форма Учёта</h1>
+	<div class="form-group">
+      <input type="number" max="3" required="required"/>
+      <label for="input" class="control-label">порядковый номер</label><i class="bar"></i>
+    </div>
+	<div class="form-group">
+      <input type="time" required="required"/>
+      <label for="input" class="control-label">время заезда</label><i class="bar"></i>
+    </div>
+	<div class="form-group">
+      <input type="text" maxlength="6" required="required"/>
+      <label for="input" class="control-label">гос. номер машины</label><i class="bar"></i>
+    </div>
+    <div class="form-group">
+      <select>
+		<option>--</option>
+		<option>BMW</option>
+		<option>LADA</option>
+		<option>Волга</option>
+		<option>Alfa Romeo</option>
+		<option>Aston Martin</option>
+		<option>Audi</option>
+		<option>Bentley</option>
+		<option>Bugatti</option>
+		<option>Buick</option>
+		<option>Chevrolet</option>
+		<option>Daewoo</option>
+		<option>Honda</option>
+		<option>Hyundai</option>
+		<option>Mazda</option>
+		<option>Mercedes-Benz</option>
+		<option>Nissan</option>
+		<option>Peugeot</option>
+		<option>Mitsubishi</option>
+		<option>Volkswagen</option>
+		<option>Toyota</option>
+		<option>Tesla</option>
+        <option>Reno</option>
+        <option>Lamborghini</option>
+      </select>
+      <label for="select" class="control-label">Марка автомобиля</label><i class="bar"></i>
+    </div>
+	    <div class="form-group">
+      <select>
+		<option>--</option>
+		<option>Щеточная</option>
+		<option>Ручная</option>
+		<option>Бесконтактная</option>
+		<option>Сухая</option>
+		<option>Автоматическая</option>
+      </select>
+      <label for="select" class="control-label">тип мойки</label><i class="bar"></i>
+    </div>
+    <div class="form-group">
+      <input type="text" required="required"/>
+      <label for="input" class="control-label">цена</label><i class="bar"></i>
+    </div>
+	<div class="form-group">
+      <input type="text" required="required"/>
+      <label for="input" class="control-label">Ф.И.О. мойщика</label><i class="bar"></i>
+    </div>
+	    <div class="form-radio">
+      <div class="radio">
+        <label>
+          <input type="radio" name="radio" checked="checked"/><i class="helper"></i>1-я смена
+        </label>
+        <label>
+          <input type="radio" name="radio"/><i class="helper"></i>2-я смена
+        </label>
+      </div>
+    </div>
+	<div class="form-group">
+      <input type="time" required="required"/>
+      <label for="input" class="control-label">время выезда</label><i class="bar"></i>
+    </div>
+	<div class="form-group">
+      <textarea required="required" rows="2"></textarea>
+      <label for="textarea" class="control-label">Комментарий</label><i class="bar"></i>
+    </div>
+  </form>
+  <div class="button-container">
+    <button type="button" class="button"><span>Добавить</span></button>
+  </div>
+</div>
+</body>
+</html>

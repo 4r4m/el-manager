@@ -54,15 +54,111 @@
 	    <div class="form-group">
       <select>
 		<option>--</option>
-		<option>Щеточная</option>
-		<option>Ручная</option>
-		<option>Бесконтактная</option>
-		<option>Сухая</option>
-		<option>Автоматическая</option>
+		<option>1 категория</option>
+		<option>2 категория</option>
+		<option>3 категория</option>
+		<option>4 категория</option>
+		<option>5 категория</option>
+		<option>6 категория</option>
       </select>
-      <label for="select" class="control-label">тип мойки</label><i class="bar"></i>
+      <label for="select" class="control-label">Категория автомобиля</label><i class="bar"></i>
     </div>
-    <div class="form-group">
+	<div class="form-radio">
+      <div class="radio">
+	  	<label>
+          <input type="radio" name="outdoor" checked/><i class="helper"></i>Нет
+        </label>
+        <label>
+          <input type="radio" name="wash-type" checked/><i class="helper"></i>Комплексная мойка без багажника
+        </label>
+        <label>
+          <input type="radio" name="wash-type"/><i class="helper"></i>Комплексная мойка с багажником
+        </label>
+      </div>
+    </div>
+	<div class="form-radio">
+      <div class="radio">
+	  	<label>
+          <input type="radio" name="outdoor" checked/><i class="helper"></i>Нет
+        </label>
+        <label>
+          <input type="radio" name="rinsing" checked/><i class="helper"></i>Ополаскивание водой
+        </label>
+        <label>
+          <input type="radio" name="rinsing"/><i class="helper"></i>Ополаскивание химией
+        </label>
+      </div>
+    </div>
+	<div class="form-radio">
+      <div class="radio">
+	    <label>
+          <input type="radio" name="outdoor" checked/><i class="helper"></i>Нет
+        </label>
+        <label>
+          <input type="radio" name="outdoor"/><i class="helper"></i>Наружка протирка машины не открывая дверей
+        </label>
+        <label>
+          <input type="radio" name="outdoor"/><i class="helper"></i>Наружка с коврами протирка машины, проемы дверей
+        </label>
+      </div>
+    </div>
+	<div class="form-radio">
+      <div class="radio">
+	    <label>
+          <input type="radio" name="interior" checked/><i class="helper"></i>Нет
+        </label>
+        <label>
+          <input type="radio" name="interior"/><i class="helper"></i>Мойка салона автомобиля
+        </label>
+        <label>
+          <input type="radio" name="interior"/><i class="helper"></i>Влажная уборка салона
+        </label>
+      </div>
+    </div>
+	<div class="form-radio">
+      <div class="radio">
+	    <label>
+          <input type="radio" name="outdoor" checked/><i class="helper"></i>Нет
+        </label>
+        <label>
+          <input type="radio" name="outdoor"/><i class="helper"></i>Уборка багажника (пылесос, коврик)
+        </label>
+      </div>
+    </div>
+	<div class="form-radio">
+      <div class="radio">
+	    <label>
+          <input type="radio" name="vacuum-cleaner" checked/><i class="helper"></i>Нет
+        </label>
+        <label>
+          <input type="radio" name="vacuum-cleaner"/><i class="helper"></i>Пылесос салона
+        </label>
+      </div>
+    </div>
+	<div class="form-radio">
+      <div class="radio">
+	    <label>
+          <input type="radio" name="glass" checked/><i class="helper"></i>Нет
+        </label>
+        <label>
+          <input type="radio" name="glass"/><i class="helper"></i>Обработка стекол стеклоочистителем
+        </label>
+      </div>
+    </div>
+	<div class="form-radio">
+      <div class="radio">
+	    <label>
+          <input type="radio" name="wheels" checked/><i class="helper"></i>Нет
+        </label>
+        <label>
+          <input type="radio" name="wheels"/><i class="helper"></i>Мойка 4-х колес с дисками
+        </label>
+        <label>
+          <input type="radio" name="wheels"/><i class="helper"></i>Мойка 4-х колес без дисков
+        </label>
+      </div>
+    </div>
+	<div class="form-group">
       <input type="text" required="required"/>
       <label for="input" class="control-label">цена</label><i class="bar"></i>
     </div>
@@ -70,7 +166,7 @@
       <input type="text" required="required"/>
       <label for="input" class="control-label">Ф.И.О. мойщика</label><i class="bar"></i>
     </div>
-	    <div class="form-radio">
+	<div class="form-radio">
       <div class="radio">
         <label>
           <input type="radio" name="radio" checked="checked"/><i class="helper"></i>1-я смена
